@@ -1,0 +1,23 @@
+# conda create -n hummingbot python=3.10 -y
+ccxt
+sqlalchemy
+
+# hummingbot
+# hummingbot-api-client
+nest_asyncio
+pydantic
+streamlit>=1.36.0
+watchdog
+python-dotenv
+plotly==5.24.1
+pycoingecko
+glom
+defillama
+statsmodels
+pandas_ta==0.3.14b
+pyyaml
+pathlib
+streamlit-authenticator==0.3.2
+flake8
+isort
+pre-commit
