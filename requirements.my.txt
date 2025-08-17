@@ -1,14 +1,13 @@
-# conda create -n hummingbot python=3.10 -y
+# conda create -n hummingbot python=3.12 -y
 ccxt
 sqlalchemy
 
 # hummingbot
 # hummingbot-api-client
 # hummingbot-api
-# 1. install hummingbot hummingbot-api-client (according to the mannual)
-# 2. hummingbot-api (pip install -r requirements-my.txt)
-# 2. launch hummingbot-api by ./run-my.sh
-# 3. launch dashboard by ./run-my.sh
+# 1. install hummingbot hummingbot-api-client (according to the mannual and pip install .)
+# 2. hummingbot-api (make -f Makefile-my install/run)
+# 3. launch dashboard (make -f Makefile-my install/run)
 
 nest_asyncio
 pydantic

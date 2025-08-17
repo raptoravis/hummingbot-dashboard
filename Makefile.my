@@ -1,0 +1,14 @@
+.ONESHELL:
+.SHELLFLAGS := -c
+
+.PHONY: run
+.PHONY: install
+.PHONY: install-pre-commit
+
+run:
+	streamlit run main.py --server.headless true
+
+install:
+	pip install -r requirements.my.txt
+	pip install pre-commit 
+	pre-commit install
