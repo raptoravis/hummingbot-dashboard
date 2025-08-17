@@ -4,6 +4,11 @@ sqlalchemy
 
 # hummingbot
 # hummingbot-api-client
+# hummingbot-api
+# 1. install hummingbot hummingbot-api-client hummingbot-api （pip install -r requirments-my.txt）
+# 2. launch hummingbot-api by ./run-my.sh
+# 3. launch dashboard by ./run-my.sh
+
 nest_asyncio
 pydantic
 streamlit>=1.36.0
